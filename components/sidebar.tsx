@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import SidebarItem from "./sidebar-item";
+import { SidebarItem } from "@/components/sidebar-item";
 import { AppWindow, Briefcase, HomeIcon, Presentation } from "lucide-react";
 
 type Props = { className?: string };

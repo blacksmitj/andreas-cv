@@ -1,4 +1,4 @@
-import { Card } from "./projects/card";
+import { Card } from "@/components/projects/card";
 
 export const List = () => {
   return (

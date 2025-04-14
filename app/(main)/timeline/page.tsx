@@ -4,7 +4,7 @@ import { LatestProject } from "@/components/latest-project";
 import { EducationTimeline } from "@/components/timeline/education-timeline";
 import { WorkTimeline } from "@/components/timeline/work-timeline";
 
-const ExperiencePage = () => {
+const TimelinePage = () => {
   return (
     <div className="flex gap-5 pt-20 mx-10">
       <div className="flex flex-col gap-y-10 w-2/3">
@@ -12,6 +12,7 @@ const ExperiencePage = () => {
         {/* Work Timeline */}
         <WorkTimeline />
         <Header title="Education" subtitle="Detail of education" />
+        {/* Education Timeline */}
         <EducationTimeline />
         <Footer />
       </div>
@@ -21,4 +22,4 @@ const ExperiencePage = () => {
   );
 };
 
-export default ExperiencePage;
+export default TimelinePage;

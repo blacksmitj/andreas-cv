@@ -7,7 +7,7 @@ import { LucideIcon } from "lucide-react";
 
 type Props = { label: string; href: string; icon?: LucideIcon };
 
-const SidebarItem = ({ label, href, icon: Icon }: Props) => {
+export const SidebarItem = ({ label, href, icon: Icon }: Props) => {
   const pathname = usePathname();
   const isActive = pathname === href;
 
@@ -29,5 +29,3 @@ const SidebarItem = ({ label, href, icon: Icon }: Props) => {
     </Button>
   );
 };
-
-export default SidebarItem;
