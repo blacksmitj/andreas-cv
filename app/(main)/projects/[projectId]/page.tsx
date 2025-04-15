@@ -9,9 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/footer";
 
 type Props = {
-  params: {
-    projectId: string;
-  };
+  params: Promise<{ projectId: string }>;
 };
 
 const ProjectIdPage = async ({ params }: Props) => {
