@@ -17,6 +17,8 @@ type Props = {
 const ProjectIdPage = async ({ params }: Props) => {
   const { projectId } = await params;
 
+  console.log(projectId);
+
   return (
     <div className="flex gap-5 pt-20 mx-10">
       <div className="flex flex-col gap-y-20 w-2/3">
